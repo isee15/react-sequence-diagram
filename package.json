@@ -1,0 +1,49 @@
+{
+  "name": "@sharp9/react-sequence-diagram",
+  "version": "1.0.0",
+  "description": "一个React时序图组件，支持动画播放和交互控制",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite --config vite.demo.config.ts",
+    "build": "tsc && vite build",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist",
+    "preview": "vite preview --config vite.demo.config.ts",
+    "demo": "vite --config vite.demo.config.ts",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "sequence-diagram",
+    "timeline",
+    "animation",
+    "component"
+  ],
+  "author": "isee15",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "lucide-react": "^0.270.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0"
+  }
+}
