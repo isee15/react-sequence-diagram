@@ -1,6 +1,6 @@
 {
   "name": "@sharp9/react-sequence-diagram",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "一个React时序图组件，支持动画播放和交互控制",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
