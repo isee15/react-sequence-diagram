@@ -2,7 +2,7 @@
 
 一个美观、交互式的 React 时序图组件，支持动画播放和交互控制。
 
-![React Sequence Diagram 示例](./seq1.jpg)
+![React Sequence Diagram 示例](https://github.com/isee15/react-sequence-diagram/blob/main/seq1.jpg)
 
 ## 特性
 
